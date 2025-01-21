@@ -1,0 +1,272 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto;/*Centrer le container*/
+    /* border-bottom: 4px solid #3c6565;  */
+}
+
+/* EDIT PARTI GAUCHE*/
+.pGauche{
+    /* background-color: #9ddcdc; */
+    background-color: #3c6565;
+    padding: 3px 20px;
+    width: 400px;
+    box-sizing: border-box; /*pour un meilleur controle du box */
+    color: rgb(243, 242, 242);
+}
+.tof-container{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 30px 0 ;
+}
+#photo-profil{
+    border-radius: 50%;
+    width: 150px;
+    
+}
+#adress,
+#mail,
+#phone{
+    width: 25px;
+    height: 25px;
+    background-color:whitesmoke ;
+    border-radius: 50%;
+    margin: auto 0;
+}
+
+.list-infopers li{
+    display: flex;
+    line-height: 10px;
+    padding-left: 15px;
+    gap: 10px; /*pour espacer chaque icone a son articles*/
+}
+.list-infopers{
+    padding: 0;
+}
+.section-profil{
+    padding-bottom: 25px;
+}
+
+.fLorem{
+    padding-bottom: 20px;
+}
+
+.profil,
+.skills,
+.interets{
+    text-align: center;
+    color: #3c6565;
+    
+}
+
+.minBlocwhite{
+    background-color: white;
+    
+    width: 140px;
+    height: 28px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    
+}
+
+.Blocwhite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 190px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 35px auto ;
+    
+}
+
+.flexbox {
+    display: flex;
+    
+}
+.flexbox {
+    margin: 5px 15px 5px -40px;
+}
+ul {
+    list-style: none;
+}
+
+p a{
+    color: white;
+    text-decoration: none;
+}
+p a:hover{
+    opacity:50%;
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------------- */
+
+.pDroit{
+    background-color:whitesmoke;
+    padding: 3px 20px;
+    width: 600px;
+    /* box-sizing: border-box; */
+}
+
+.rayleight{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    line-height:0.5px;
+    padding: 31px 24px 24px 24px;
+    text-overflow:ellipsis;
+}
+.Silver{
+    font-family: "Montserrat",sans-serif;
+    font-weight:450;
+    letter-spacing: 1px;
+    font-size: 43px;
+    
+}
+.RT{
+    
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+/* ________________big education and experience ____________________ */
+
+ 
+
+/* .headXp::before,
+.headXp::after{
+    content: " ";
+    position: absolute;
+    bottom: 50%;
+    border-radius: 3px;
+    width: 200px;
+    height: 4px;
+    background-color: #3c6565;
+
+}
+
+.headXp::before{
+    right: 100%;
+    margin-right: 15px;
+}
+.headXp::after{
+    left: 100%;
+    margin-left: 15px;
+}
+.Lang-Comp{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+} */
+
+/* __________________languages and computer____________________ */
+
+
+/* .headXpLC{
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: large;   
+}
+.headXpLC::before,
+.headXpLC::after{
+    content: " ";
+    position: absolute;
+    bottom: 50%;
+    border-radius: 3px;
+    width: 100px;
+    height: 4px;
+    background-color: #3c6565;
+}
+
+.headXpLC::before{
+    right: 100%;
+    margin-right: 15px;
+}
+.headXpLC::after{
+    left: 100%;
+    margin-left: 15px;
+} */
+
+
+.langage ul,
+.computer ul{
+    padding: 0 40px 0 0;
+    
+}
+
+.freestyle{
+    display:inline;
+    font-weight: 400;
+    font-size:large ;
+    /* line-height: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lorX1,
+.lorX2,
+.eduX1,
+.eduX2{
+    line-height: 20px;
+}
+
+/*    Debut effet flotant  */
+.lorX1:hover,
+.lorX2:hover,
+.eduX1:hover,
+.eduX2:hover{
+    transform:translateX(10px);
+    color: #2d4b4b;
+}
+
+
+/*  Fin effet flotant  */
+
+/*  new modif  */
+
+.line{
+    width: 200px;
+    height: 4px;
+    background-color: #3c6565;
+    border-radius: 3px;
+    margin: 0 15px;
+}
+.lineExpert,
+.childline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lineExpert h2,
+.childline h2{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+/*  parti langue et computer */
+
+.Lang-Comp{
+    display: flex;
+}
+.cLine{
+    width: 90px;
+    height: 4px;
+    background-color: #3c6565;
+    border-radius: 3px;
+    margin: 0 15px;
+}
+
+.lineLC ul{
+    padding-left: 130px;
+}
+
